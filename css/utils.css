@@ -1,0 +1,117 @@
+/* DEBUG */
+
+.bg-blue{
+  background-color: blue;
+  border: 2px solid red;
+}
+.bg-red{
+  background-color: red;
+}
+
+.debug{   
+  background-color: rgba(255, 0, 0, .4);
+  border: 1px solid black; 
+}  
+
+.h100{      
+  min-height: 100px; 
+}  
+.h200{
+  min-height: 200px;
+}
+.h300{   
+  min-height: 300px; 
+} 
+
+.h500{   
+  min-height: 500px; 
+}
+
+.width150{  
+  width: 150px; 
+}  
+
+.w30{
+  width: 30%;
+}
+
+.w40{   
+  width: 40%; 
+}  
+
+.w50{   
+  width: 50%; 
+}  
+
+.w60{  
+  width: 60%; 
+}
+
+.w90{
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/* /DEBUG */
+
+
+.container-70{
+  width: 70%;
+  margin: auto;
+}
+.container-80{
+  width: 80%;
+  margin: auto;
+}
+
+
+.float-sx{
+  float: left;
+}
+.float-dx{
+  float: right;  
+}
+
+
+ /* FLEX */
+.d-flex{
+  display: flex;
+}
+
+
+
+/* BUTTON */
+
+
+.btn{
+  cursor: pointer;
+  border:none;
+  padding: 10px 20px;
+  background-color: white;
+  transition: brightness 1s linear;
+}
+
+
+
+/* SPAZIATURE */
+
+.space-xxs{
+  margin-top: 10px;
+}
+.space-xs{
+  margin-top: 25px
+}
+.space-s{
+  margin-top: 50px;
+}
+.space-m{
+  margin-top: 150px;
+}
+.space-l{
+  margin-top: 300px;
+}
+.space-w-xs{
+  display: inline;
+  margin-left: 10px;
+}
