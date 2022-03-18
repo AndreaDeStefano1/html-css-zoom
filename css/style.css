@@ -24,8 +24,9 @@ header{
 /* MAIN */
 
 main{
-  height: calc(100vh - 138px);
+  height: calc(100vh - 126px);
   background-color: black;
+  overflow-y: auto;
 }
 
 .miniature-container{
@@ -52,15 +53,43 @@ main{
 
 /* FOOTER */
 
-.nav{
+footer{
   justify-content: space-between;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(34, 34, 34);
+}
+
+footer .fa-solid{
+  font-size: 30px;
+}
+
+footer .fa-chevron-up{
+  font-size: 15px;
 }
 
 /* sinistra */
 .left-container{
   justify-content: space-between;
+  gap: 30px;
+}
+.mic,
+.video{
+  /* padding: 5px 0 0 20px; */
+  gap: 0px 10px;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  min-width: 70px;
 }
 
+.mic > *,
+.video > *{
+  height: 50%;
+}
 
 
 /* centro */
@@ -70,10 +99,17 @@ main{
   justify-content: space-evenly;
 }
 
+.option{
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
 
 
 /* destra */
 .right-container{
- 
+ align-self: center;
 
 }
