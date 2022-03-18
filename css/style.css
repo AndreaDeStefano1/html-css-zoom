@@ -107,9 +107,20 @@ footer .fa-chevron-up{
   align-content: center;
 }
 
+.option.active i{
+  color: rgb(75, 200, 0);
+}
+
 
 /* destra */
-.right-container{
- align-self: center;
+.btn{
+  background-color: rgb(74, 74, 74);
+  height: 88px;
+  margin: -10px -10px -10px 0;
+}
 
+.btn p{
+  color: rgb(223, 38, 53);
+  padding: 0 20px 0 30px;
+  align-self: center;
 }
