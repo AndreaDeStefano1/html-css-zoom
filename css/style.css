@@ -25,16 +25,29 @@ header{
 
 main{
   height: calc(100vh - 138px);
+  background-color: black;
 }
 
 .miniature-container{
   flex-wrap: wrap;
   justify-content: center;
+  gap: 5px;
+  padding: 30px
 }
 
 .miniature{
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 150px;
+  background-image: url(https://picsum.photos/250/150);
+  position: relative;
+}
+.label{
+  color: white;
+  position: absolute;
+  left: 1px;
+  bottom: 1px;
+  background-color: rgba(60, 60, 60, 0.5);
+  padding: 3px;
 }
 
 /* FOOTER */
