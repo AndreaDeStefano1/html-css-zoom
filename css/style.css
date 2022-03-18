@@ -1,0 +1,66 @@
+/* HEADER */
+
+header{
+  width: 100%;
+  justify-content: flex-end;
+  background-color: black;
+  padding: 5px;  
+}
+
+
+.setting{
+  color: white; 
+}
+.setting > div{
+  margin: 0 5px;
+}
+
+.setting > div{
+  border-radius: 10px;
+  background-color: rgb(74, 74, 74);
+  padding: 5px 10px;
+}
+
+/* MAIN */
+
+main{
+  height: calc(100vh - 138px);
+}
+
+.miniature-container{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.miniature{
+  width: 200px;
+  height: 100px;
+}
+
+/* FOOTER */
+
+.nav{
+  justify-content: space-between;
+}
+
+/* sinistra */
+.left-container{
+  justify-content: space-between;
+}
+
+
+
+/* centro */
+
+.center-container{
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+
+
+/* destra */
+.right-container{
+ 
+
+}
